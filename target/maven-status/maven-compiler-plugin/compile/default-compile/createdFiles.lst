@@ -1,0 +1,9 @@
+com\example\dailywisdom\controller\QuoteController.class
+com\example\dailywisdom\service\EmailServiceImpl.class
+com\example\dailywisdom\config\RestTemplateConfig.class
+com\example\dailywisdom\DailyWisdomApplication.class
+com\example\dailywisdom\config\MailConfig.class
+com\example\dailywisdom\model\Quote.class
+com\example\dailywisdom\service\QuoteService.class
+com\example\dailywisdom\service\QuoteServiceImpl.class
+com\example\dailywisdom\service\EmailService.class
