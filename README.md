@@ -12,12 +12,12 @@ The Daily Wisdom App backend is responsible for generating random quotes from th
     - **Description**: Retrieves a random quote from the Quotable API.
 
 2. **Send Quote by Email Endpoint**:
-    - **URL**: `/api/email/send`
-    - **Method**: POST
-    - **Parameters**:
-        - `quoteId`: ID of the quote to send.
-        - `email`: Email address of the recipient.
-    - **Description**: Sends the selected quote to the specified email address.
+   - **URL**: `/api/quotes/sendEmail`
+   - **Method**: POST
+   - **Parameters**:
+      - `quote`: The quote object to send. This should be a JSON object with the same structure as the quote objects returned by the Random Quote Endpoint.
+      - `email`: The email address of the recipient.
+   - **Description**: Sends the selected quote to the specified email address. The quote should be provided in the request body along with the recipient's email address.
 
 ## Hosting, Deployment, and Access
 
