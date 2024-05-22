@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Daily Wisdom App backend is responsible for generating random quotes from the [Quotable API](https://example.com/quotable-api) and allowing users to send these quotes to an email recipient using JMS.
+The Daily Wisdom App backend is responsible for generating random quotes from the [Quotable API](https://docs.quotable.io/docs/api/ZG9jOjQ2NDA2-introduction) and allowing users to send these quotes to an email recipient using JMS.
 
 ## Endpoints
 
