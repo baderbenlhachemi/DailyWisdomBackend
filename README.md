@@ -25,4 +25,4 @@ The backend of the Daily Wisdom App is hosted on a free instance provided by [Re
 
 The web service is deployed using a Dockerfile. This allows for a consistent and reproducible environment, regardless of where the application is being run.
 
-The web service can be accessed through the following link: [https://dailywisdombackend.onrender.com](https://dailywisdombackend.onrender.com)
+The web service can be accessed through the following link: [https://daily-wisdom-springboot.onrender.com/api/quotes/random](https://daily-wisdom-springboot.onrender.com/api/quotes/random)
